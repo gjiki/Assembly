@@ -22,7 +22,7 @@ section .text
     cmp r8, r9
     ; jump to greater if num1 > num2
     jg .greater
-    ; jump to greater if num1 < num2
+    ; jump to smaller if num1 < num2
     jmp .smaller
 
 ;; print greater_msg and finish program
