@@ -1,1 +1,1 @@
-# There are some simple Assembly code examples
+# There are some simple linux-x64 Assembly code examples
