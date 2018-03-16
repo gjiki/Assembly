@@ -2,9 +2,9 @@
 
 How to compile and run Assembly files :
 
-     nasm -f elf64 -o name.o filename.asm
+    nasm -f elf64 -o name.o filename.asm
 
-     ld -o exec_name name.o
+    ld -o exec_name name.o
 
 ./exec_name
 <br />
@@ -12,8 +12,8 @@ How to compile and run Assembly files :
 <br />
 How to compile and run C and Assembly integration :
 
-     nasm -f elf64 -o asm_out.o asm_code_name.asm
+    nasm -f elf64 -o asm_out.o asm_code_name.asm
 
-     gcc c_code_name.c c_out.o -o exec_name
+    gcc c_code_name.c c_out.o -o exec_name
 
-     ./exec_name
+    ./exec_name
