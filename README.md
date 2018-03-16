@@ -9,7 +9,6 @@ How to compile and run Assembly files :
     ./exec_name
 <br />
 <br />
-<br />
 How to compile and run C and Assembly integration :
 
     nasm -f elf64 -o asm_out.o asm_code_name.asm
