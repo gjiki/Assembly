@@ -7,7 +7,7 @@ How to compile and run Assembly files
     ld -o exec_name name.o
 
     ./exec_name
-How to compile and run C and Assembly integration
+How to compile and run C/Assembly integration
 
     nasm -f elf64 -o asm_out.o asm_code_name.asm
 
