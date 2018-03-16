@@ -5,19 +5,20 @@ section .data
 	SYS_EXIT	equ 60
 	EXIT_CODE	equ 0
 
-    msg db      "Hello, World!"
+    msg db      "Hello, World!", 0xA
+    len equ     $ - msg
 
 ;; code
 section .text
-    global _start
+    global _hello
 
 ;; main routine
-_start:
+_hello:
     ; print message
     mov     rax, SYS_WRITE
     mov     rdi, 1
     mov     rsi, msg
-    mov     rdx, 13
+    mov     rdx, len
     ; call sys_write
     syscall
     ; finish program
