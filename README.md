@@ -6,7 +6,7 @@ How to compile and run Assembly files :
 
     ld -o exec_name name.o
 
-./exec_name
+    ./exec_name
 <br />
 <br />
 <br />
