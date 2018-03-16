@@ -1,4 +1,4 @@
-# There are some simple linux-x64 Assembly code examples
+# This repository is created for learning Linux x86-64 Assembly and its integration with C && C++ codes
 How to compile :
 
 nasm -f elf64 -o name.o filename.asm
