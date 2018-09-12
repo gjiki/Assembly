@@ -28,4 +28,4 @@ CMakeLists.txt
     set(CMAKE_ASM_NASM_COMPILE_OBJECT "<CMAKE_ASM_NASM_COMPILER> <INCLUDES> \
         <FLAGS> -f ${CMAKE_ASM_NASM_OBJECT_FORMAT} -o <OBJECT> <SOURCE>")
         
-    add_executable(exec_name asm_name.asm cfile_name.c)
+    add_executable(exec_name asm_name.asm filename.c)
