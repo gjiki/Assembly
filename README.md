@@ -11,6 +11,6 @@ How to compile and run C/Assembly integration
 
     nasm -f elf64 -o asm_out.o asm_code_name.asm
 
-    gcc c_code_name.c am_out.o -o exec_name
+    gcc c_code_name.c asm_out.o -o exec_name
 
     ./exec_name
